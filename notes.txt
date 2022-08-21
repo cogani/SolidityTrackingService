@@ -1,0 +1,23 @@
+https://faucets.chain.link/rinkeby
+https://faucet.rinkeby.io/
+
+
+
+curl https://rinkeby.infura.io/v3/ad629cbd11de47dd867d80d53fa82c30 \
+-X POST \
+-H "Content-Type: application/json" \
+-d '{"jsonrpc":"2.0","method":"eth_blockNumber","params": [],"id":1}'
+
+
+
+curl https://rinkeby.infura.io/v3/ad629cbd11de47dd867d80d53fa82c30 \
+-X POST \
+-H "Content-Type: application/json" \
+-d '{"jsonrpc":"2.0","method":"eth_getBalance","params": ["0xa70A7251AA913dFd0ffb61b8301e491E57456E64", "latest"],"id":1}'
+
+
+https://www.rapidtables.com/convert/number/hex-to-decimal.html
+https://converter.murkin.me/
+
+
+https://mmomtchev.github.io/rlayers/#/geodata
